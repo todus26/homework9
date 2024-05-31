@@ -3,7 +3,7 @@
 
 #define MAX_Vertex 10       // 정점의 최대 개수.
 
-// Grapg를 Adjacency List로 구현하기 위한 구조체
+// Grapg를 Adjacency List로 구현하기 위한 구조체.
 typedef struct Edge {       // edge
     struct Edge* link;      // 다음 edge를 가리키는 포인터
     int vertex;             // edge가 연결된 정점 (가리키는 vertex 번호)
