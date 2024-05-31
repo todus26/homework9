@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define MAX_Vertex 10       // 정점의 최대 개수
+#define MAX_Vertex 10       // 정점의 최대 개수.
 
 // Grapg를 Adjacency List로 구현하기 위한 구조체
 typedef struct Edge {       // edge
